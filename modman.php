@@ -6,7 +6,7 @@ init();
 
 function init(){
   $dir = getcwd();
-  $folder = array("app","js","lib","media","skin");
+  $folder = array("app","js","lib","media","shell","skin");
   if(is_dir($dir)){
     $temp = scandir($dir);
     foreach ($temp as $key => $value)
